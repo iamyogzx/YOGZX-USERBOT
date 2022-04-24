@@ -57,18 +57,18 @@ async def set_not_afk(event):
                 shite = await bot.send_message(event.chat_id, file=pic)
                 shites = await bot.send_message(
                     event.chat_id,
-                    f"🔥 {ALIVE_NAME} __**Sudah Kembali Online...**__\n**Sejak :** `{total_afk_time}` **Yang Lalu**",
+                    f"🐧 {ALIVE_NAME} __**Sudah Kembali Online Si Yogzx...**__\n**Sejak :** `{total_afk_time}` **Yang Lalu**",
                 )
             else:
                 shite = await bot.send_message(
                     event.chat_id,
-                    f"🔥 __**Sudah Kembali Online...**__\n**Ada Sejak :** `{total_afk_time}` **Yang Lalu**",
+                    f"🐧 __**Sudah Kembali Online Si Yogzx...**__\n**Ada Sejak :** `{total_afk_time}` **Yang Lalu**",
                     file=pic,
                 )
         except BaseException:
             shite = await bot.send_message(
                 event.chat_id,
-                f"🔥 __**Sudah Kembali Online...**__\n**Kembali Chat Sejak :** `{total_afk_time}` **Yang Lalu**",
+                f"🐧 __**Sudah Kembali Online Si Yogzx...**__\n**Kembali Chat Sejak :** `{total_afk_time}` **Yang Lalu**",
             )
 
         except BaseException:
@@ -110,10 +110,10 @@ async def on_afk(event):
         msg = None
         if reason:
             message_to_reply = (
-                f"**{ALIVE_NAME} Sedang AFK**\n\n**Sejak :** `{total_afk_time}` **Yang Lalu**\n" +
+                f"*Yang Mulia {ALIVE_NAME} Sedang AFK**\n\n**Sejak :** `{total_afk_time}` **Yang Lalu**\n" +
                 f"**Karena :** `{reason}`")
         else:
-            message_to_reply = f"**Maaf King {ALIVE_NAME} Sedang AFK**\n\n**Sejak :** `{total_afk_time}` **Yang Lalu**"
+            message_to_reply = f"**Maaf Yogzx {ALIVE_NAME} Sedang AFK**\n\n**Sejak :** `{total_afk_time}` **Yang Lalu**"
         try:
             if pic.endswith((".tgs", ".webp")):
                 msg = await event.reply(file=pic)
@@ -178,7 +178,7 @@ async def _(event):
                     await bot.send_message(event.chat_id, file=pic)
                     await bot.send_message(
                         event.chat_id,
-                        f"**King {ALIVE_NAME} Telah AFK**\n**Karena :** `{reason}`",
+                        f"**Tuan {ALIVE_NAME} Telah AFK**\n**Karena :** `{reason}`",
                     )
                 else:
                     await bot.send_message(
@@ -189,24 +189,24 @@ async def _(event):
             except BaseException:
                 await bot.send_message(
                     event.chat_id,
-                    f"**King {ALIVE_NAME} Telah AFK**\n**Karena :** `{reason}`",
+                    f"**Tuan {ALIVE_NAME} Telah AFK**\n**Karena :** `{reason}`",
                 )
         else:
             try:
                 if pic.endswith((".tgs", ".webp")):
                     await bot.send_message(event.chat_id, file=pic)
                     await bot.send_message(
-                        event.chat_id, f"**King {ALIVE_NAME} Telah AFK...**"
+                        event.chat_id, f"**Tuan {ALIVE_NAME} Telah AFK...**"
                     )
                 else:
                     await bot.send_message(
                         event.chat_id,
-                        f"**King {ALIVE_NAME} Telah AFK...**",
+                        f"**Tuan {ALIVE_NAME} Telah AFK...**",
                         file=pic,
                     )
             except BaseException:
                 await bot.send_message(
-                    event.chat_id, f"**King {ALIVE_NAME} Telah AFK...**"
+                    event.chat_id, f"**Tuan {ALIVE_NAME} Telah AFK...**"
                 )
         await event.delete()
         try:
@@ -242,7 +242,7 @@ async def _(event):
                     )
             else:
                 await bot.send_message(
-                    BOTLOG_CHATID, f"#AFK\n**{ALIVE_NAME} Masih aja AFK**"
+                    BOTLOG_CHATID, f"#AFK\n**{ALIVE_NAME} Masih aja AFK Dah mokad kali {ALIVE_NAME}**"
                 )
         except Exception as e:
             BOTLOG_CHATIDger.warn(str(e))

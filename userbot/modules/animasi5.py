@@ -49,7 +49,7 @@ async def _(event):
         "INFO - King-Userbot: Logged in as 557667062",
         "INFO - King-Userbot: Successfully...",
         "919852+00:00 app[worker.1]: 919 - King-Userbot -",
-        f"INFO - ⚡️ King-Userbot ⚡️ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]",
+        f"INFO - ⚡️ YOGZX-USERBOT ⚡️ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]",
         "**Build Succeeded**",
     ]
 

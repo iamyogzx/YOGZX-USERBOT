@@ -94,17 +94,17 @@ async def kuota(event):
     await event.edit("`Mengecek kuota...⚡️`")
     sleep(1)
     await event.edit(
-        f"★ **INFO KUOTA KING** ★\n╔══════━━━━━━━══════╗ \n"
+        f"★ **INFO KUOTA TUAN** ★\n╔══════━━━━━━━══════╗ \n"
         f"➠ **Penggunaan Kuota :** `{DEFAULTUSER}` \n"
         f"• **Hasil :** `00` **Jam** - `00` **Menit** \n"
         f"• **Persen :** `00`% \n"
         f"◖═══════════════════◗ \n"
         f"➠ **Sisa Kuota Bulan Ini :** \n"
-        f"• **Sisa :**  `1000` **Jam** - `00` **Menit** \n"
+        f"• **Sisa :**  `99999` **Jam** - `00` **Menit** \n"
         f"• **Persen :** `10`% \n"
         f"╚══════━━━━━━━══════╝ \n"
-        f"◈ **KING :** {DEFAULTUSER} \n"
-        f"◈ **REPO :** [King-Userbot](https://github.com/apisuserbot/King-Userbot)"
+        f"◈ **TUAN :** {DEFAULTUSER} \n"
+        f"◈ **REPO :** [YOGZX-USERBOT](https://github.com/iamyogzx/YOGZX-USERBOT)"
     )
 
 

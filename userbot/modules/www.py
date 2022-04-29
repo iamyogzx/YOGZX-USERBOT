@@ -90,8 +90,8 @@ async def pingme(pong):
     """For .kping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("⚡")
-    await pong.edit("__**...💠KING💠...**__")
+    await pong.edit("🐧")
+    await pong.edit("__**...⚡YOGZX⚡...**__")
     await pong.edit("__**.....USERBOT.....**__")
     await pong.edit("__**......MOHON MENUNGGU......**__")
     await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
@@ -103,7 +103,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**╰━❖  king ping ❖━╯**\n"
+        f"**╰━❖  yogzx ping ❖━╯**\n"
         f"☞ __ping :__ "
         f"`%sms` \n"
         f"☞ __i'm online :__ "
@@ -116,12 +116,12 @@ async def pingme(pong):
     """For .xping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`.....⚡King⚡.....`")
+    await pong.edit("`.....⚡YOGZX⚡.....`")
     await pong.edit("`⚡️`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"•⎚• ⎆ __King__ **Pong!**\n"
+        f"•⎚• ⎆ __Yogzx__ **Pong!**\n"
         f"☞  __Ping :__ "
         f"`%sms` \n"
         f"☞  __Sisa Waktu :__ "
@@ -139,7 +139,7 @@ async def pingme(pong):
     await pong.edit("**...................**")
     await pong.edit("**DUARRR!**")
     await pong.edit("**................**")
-    await pong.edit("⚡️")
+    await pong.edit("🐧")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
@@ -148,7 +148,7 @@ async def pingme(pong):
         f"`%sms` \n"
         f"═⎆ **Sisa Waktu :** "
         f"`{uptime}` \n"
-        f"**✠➲ King :** `{ALIVE_NAME}`" % (duration)
+        f"**✠➲ Yogzx :** `{ALIVE_NAME}`" % (duration)
     )
 
 

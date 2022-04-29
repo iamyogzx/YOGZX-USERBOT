@@ -52,23 +52,23 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern="^.king(?: |$)(.*)")
+@register(outgoing=True, pattern="^.yogzx(?: |$)(.*)")
 async def _(event):
     event.pattern_match.group(1)
     await event.edit(
-        f"`Halo {ALIVE_NAME} Saya Adalah Bot King Yang Menjaga Akun ini`"
+        f"`Halo {ALIVE_NAME} Saya Adalah Bot Tuan Yang Menjaga Akun ini`"
         f"`Agar Terhindar Dari Orang Orang Jahat Di Telegram`"
         f"\n---------------------------------------------------"
-        f"\n__**(C) copyright 2021 King-Userbot USERBOT TELEGRAM**__"
-        f"\n\n**My King :** `{ALIVE_NAME}`"
+        f"\n__**(C) copyright 2021 YOGZX-USERBOT USERBOT TELEGRAM**__"
+        f"\n\n**My Lord :** `{ALIVE_NAME}`"
     )
 
 
 CMD_HELP.update(
     {
-        "king": "**✘ Plugin :** `King`\
-        \n\n  •  **Perintah :** `.king`\
-        \n  •  **Function : **Perkenalan Userbot King\
+        "king": "**✘ Plugin :** `Yogzx`\
+        \n\n  •  **Perintah :** `.yogzx`\
+        \n  •  **Function : **Perkenalan Userbot Yogzx\
         \n\n  •  **Perintah :** `.sadboy`\
         \n  •  **Function : **Jadi sadboy:)\
         \n\n  •  **Perintah :** `.punten` | `.pantau`\

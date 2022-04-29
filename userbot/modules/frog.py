@@ -43,10 +43,10 @@ async def honkasays(event):
         await event.delete()
     except ChatSendInlineForbiddenError:
         await event.edit(
-            "`King! Saya tidak bisa menggunakan hal-hal sebaris di sini...`"
+            "`Tuan {ALIVE_NAME}! Saya tidak bisa menggunakan hal-hal sebaris di sini...`"
         )
     except ChatSendStickersForbiddenError:
-        await event.edit("Maaf King, saya tidak bisa mengirim stiker ke sini !!")
+        await event.edit("Maaf Tuan {ALIVE_NAME}, saya tidak bisa mengirim stiker ke sini !!")
 
 
 CMD_HELP.update(

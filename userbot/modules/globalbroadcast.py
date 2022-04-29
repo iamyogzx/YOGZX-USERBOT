@@ -11,10 +11,10 @@ from userbot import CMD_HELP, bot
 async def gcast(event):
     kinguser = event.pattern_match.group(1)
     if not kinguser:
-        return await event.edit("`King, Mohon Berikan Sebuah Pesan`")
+        return await event.edit("`Tuan, Mohon Berikan Sebuah Pesan`")
     tt = event.text
     msg = tt[6:]
-    kingget = await event.edit("`Sedang Mengirim Pesan Secara Global...⚡️`")
+    kingget = await event.edit("`Sedang Mengirim Pesan Secara Global...🐧`")
     er = 0
     done = 0
     async for x in bot.iter_dialogs():

@@ -132,7 +132,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/apisuserbot/King-Userbot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/iamyogzx/YOGZX-USERBOT.git"
 )
 UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "King-Userbot")
 
@@ -178,14 +178,14 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # Youtube API key
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
-# untuk perintah .kingon
-KING_TEKS_KUSTOM = os.environ.get("KING_TEKS_KUSTOM", None)
+# untuk perintah .yogzxon
+YOGZX_TEKS_KUSTOM = os.environ.get("YOGZX_TEKS_KUSTOM", None)
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
 
 # Custom Emoji Alive
-ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "⚡️")
+ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "🐧")
 
 # Custom Umur
 UMUR = os.environ.get("UMUR", None)
@@ -362,7 +362,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Telah Aktif```")
+    await bot.send_message(BOTLOG_CHATID, "```⚡𝗬𝗢𝗚𝗭𝗫-𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡ Telah Aktif```")
     return
 
 
@@ -513,11 +513,11 @@ with king:
                         [
                             custom.Button.url(
                                 text="Support Chat",
-                                url="https://t.me/KingUserbotSupport",
+                                url="https://t.me/GroupTidakDiketahui",
                             ),
                             custom.Button.url(
                                 text="Support Channel",
-                                url="https://t.me/TeamKingUserbot",
+                                url="https://t.me/Yogzx-Forber",
                             ),
                         ],
                     ],
@@ -536,7 +536,7 @@ with king:
                         [
                             Button.url(
                                 "Repository",
-                                "https://github.com/apisuserbot/King-Userbot",
+                                "https://github.com/iamyogzx/YOGZX-USERBOT",
                             ),
                             Button.url(
                                 "License",
@@ -564,7 +564,7 @@ with king:
                 await event.message.get_sender()
                 text = (
                     f"**Pesan Alive**\n\n"
-                    f"__**{KING_TEKS_KUSTOM}**__ \n\n"
+                    f"__**{YOGZX_TEKS_KUSTOM}**__ \n\n"
                     "=============================\n"
                     f"       **Alive Bot** \n"
                     "=============================\n"
@@ -585,7 +585,7 @@ with king:
                         [
                             custom.Button.url(
                                 text="Repository",
-                                url="https://github.com/apisuserbot/King-Userbot",
+                                url="https://github.com/iamyogzx/YOGZX-USERBOT",
                             ),
                             custom.Button.url(
                                 text="License",
@@ -670,9 +670,9 @@ with king:
             else:
                 result = builder.article(
                     title="USERBOT TELEGRAM",
-                    description="King-Userbot | Telethon",
+                    description="YOGZX-USERBOT | Telethon",
                     url="https://heroku.com",
-                    text="**King-UserBot**\n➖➖➖➖➖➖➖➖➖➖\n• **Support Chat :** [KLIK DISINI](https://t.me/KingUserbotSupport)\n• **Support Channel :** [KLIK DISINI](https://t.me/TeamKingUserbot)\n➖➖➖➖➖➖➖➖➖➖\n\n⚠️ DISCLAIMER ⚠️\n\n• Baca Peraturan [Disini](https://telegra.ph/Peraturan-08-04)",
+                    text="**YOGZX-USERBOT**\n➖➖➖➖➖➖➖➖➖➖\n• **Support Chat :** [KLIK DISINI](https://t.me/GroupTidakDiketahui)\n• **Support Channel :** [KLIK DISINI](https://t.me/YogzxForber)\n➖➖➖➖➖➖➖➖➖➖\n\n⚠️ DISCLAIMER ⚠️\n\n• Baca Peraturan [Disini](https://telegra.ph/Peraturan-08-04)",
                     buttons=[
                         [
                             custom.Button.url(
@@ -749,11 +749,11 @@ with king:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 text = (
-                    f"__**{KING_TEKS_KUSTOM}**__ \n\n"
+                    f"__**{YOGZX_TEKS_KUSTOM}**__ \n\n"
                     "============================\n"
                     f"      **Alive Inline** \n"
                     "============================\n"
-                    f"`King      :` {DEFAULTUSER} \n"
+                    f"`Tuan      :` {DEFAULTUSER} \n"
                     f"`Branch    :` {UPSTREAM_REPO_BRANCH} \n"
                     f"`Versi Bot :` {BOT_VER} \n"
                     f"`Plugins   :` {len(plugins)} \n"
@@ -771,7 +771,7 @@ with king:
                         [
                             Button.url(
                                 "Repository",
-                                "https://github.com/apisuserbot/King-Userbot",
+                                "https://github.com/iamyogzx/YOGZX-USERBOT",
                             ),
                             Button.url(
                                 "License",
@@ -963,16 +963,16 @@ with king:
             if event.query.user_id == uid:
                 text = (
                     f"**✘ Plugins :** `Alive`\n"
-                    f"** King : ** {DEFAULTUSER}\n\n"
+                    f"** Yogzx : ** {DEFAULTUSER}\n\n"
                     f"✘ **Penjelasan :**\n"
                     f"__Menampilkan Alive Punya Kamu, Dengan Teks Dan Foto Yang Bagus Dan Meriah__\n\n"
                     f"✘ **Deskripsi :**\n"
                     f"__Kamu Juga Dapat Mengubah Foto Dan Teks Custom Sesuka Hatimu Perintah Dibawah__\n\n"
                     f"✘ **Perintah :**\n"
-                    f"`.kingalive` || `.kingon` || `.alive` || `.xalive` || `.xon` || `.ualive` || `.uon` \n\n"
+                    f"`.kingalive` || `.yogzx` || `.alive` || `.xalive` || `.xon` || `.ualive` || `.uon` \n\n"
                     f"✘ **Set Vars :**\n"
                     f"`.set var ALIVE_LOGO` <link>\n"
-                    f"`.set var KING_TEKS_KUSTOM` <teks>\n"
+                    f"`.set var YOGZX_TEKS_KUSTOM` <teks>\n"
                     f"`.set var ALIVE_LOGO None` <tidak memakai pic/foto>")
                 await event.edit(
                     text,

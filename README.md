@@ -10,7 +10,7 @@ Terimakasih telah menggunakan repository ini!
 
 <a href="https://t.me/TeamKingUserbot/16"><img src="https://img.shields.io/badge/Tutorial%20Deploy%3F-King-green?&style=flat-square?&logo=telegram" width=165px></a></p>
 
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/5533549.gif" width="802" height="96" alt="King Userbot" /></a>
+<a href="https://cooltext.com"><img src="https://images.cooltext.com/5533549.gif" width="802" height="96" alt="Yogzx Userbot" /></a>
 
 <p align="center">
   <a href="https://github.com/apisuserbot/King-Userbot/fork">
